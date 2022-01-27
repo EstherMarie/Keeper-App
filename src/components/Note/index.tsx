@@ -1,10 +1,16 @@
 import React from "react";
+import './styles.scss'
 
-export function Note() {
+interface NoteProps {
+    title: string,
+    content: string
+}
+
+export function Note({title, content}: NoteProps) {
     return (
         <div className="note">
-            <h2>Note</h2>
-            <p>Content</p>
+            <h2>{title}</h2>
+            <p>{content}</p>
         </div>
     )
 }
