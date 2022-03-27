@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	background: #eee;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	padding: 16px 45px;
+}
